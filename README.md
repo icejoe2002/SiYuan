@@ -13,4 +13,4 @@
 
 
 
-![image](https://github.com/icejoe2002/SiYuan/blob/main/IMG_7073.JPG)
+![image](https://github.com/icejoe2002/SiYuan/blob/main/%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)
