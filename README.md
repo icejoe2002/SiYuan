@@ -13,4 +13,4 @@
 
 
 
-![image](https://github.com/icejoe2002/SiYuan/blob/main/code.jpg)
+![image](https://raw.githubusercontent.com/icejoe2002/SiYuan/main/QRcode.jpg)
