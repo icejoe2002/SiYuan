@@ -13,4 +13,4 @@
 
 
 
-![image](https://raw.githubusercontent.com/icejoe2002/SiYuan/main/QRcode-Hm.jpg)
+![image]()
