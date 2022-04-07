@@ -1,0 +1,53 @@
+{
+  "ua": "",
+  "homeUrl": "https://www.i6v.cc",
+  "cateManual": {
+      "最近更新":"/",  
+      "喜剧片":"/xijupian",  
+      "动作片":"/dongzuopian",  
+      "爱情片":"/aiqingpian" ,  
+      "科幻片":"/kehuanpian",  
+        "恐怖片":"/kongbupian", 
+        "剧情片":"/juqingpian", 
+        "纪录片":"/jilupian",  
+      "动画片":"/donghuapian",  
+      "电视剧":"/dianshiju",
+      "国剧":"/dianshiju/guoju",  
+      "日韩剧":"/dianshiju/rihanju",
+      "欧美剧":"/dianshiju/oumeiju",  
+      "综艺":"/ZongYi"
+      },
+      "author":"jonee",
+  "homeVodNode": "//div[@class='thumbnail']/a",
+  "homeVodName": "/@title",
+  "homeVodId": "/@href",
+  "homeVodIdR": "https://www.i6v.cc/(\\S+).html",
+  "homeVodImg": "/img/@src",
+  "cateUrl": "https://www.i6v.cc{cateId}/index_{catePg}.html",
+  "cateVodNode": "//div[@class='thumbnail']/a",
+  "cateVodName": "/@title",
+  "cateVodId": "/@href",
+  "cateVodIdR": "/(\\S+).html",
+  "cateVodImg": "/img/@src",
+
+  "dtUrl": "https://{vid}.html",
+  "dtNode": "//body",
+  "dtName": "//*[@id='tab-content']/ul[1]/li[1]/a/text()",
+  "dtImg": "//*[@id='post_content']/p[1]/img/@src",
+  "dtyear":"//*[@id='post_content']/p[contains(text(),'年　　代')]/text()",
+  "dtDesc": "//*[@id='post_content']/p[contains(text(),'简　　介')]/following-sibling::*/text()",
+
+
+  "dtFromNode": "//*[@id='content']/div[1]/div[4]/div[contains(@class,'widget box row')]",
+  "dtFromName": "/h3/text()",
+  
+  "dtUrlNode": "//*[@id='content']/div[1]/div[4]/div[contains(@class,'widget box row')]",
+  "dtUrlSubNode": "/a",
+  "dtUrlId": "@href",
+  "dtUrlIdR": "https://www.i6v.cc/e/DownSys/play/(\\S+)",
+  "dtUrlName": "/text()",
+  "dtUrlNameR": "",
+  "playUrl": "https://www.i6v.cc/e/DownSys/play/{playUrl}",
+  "playUa": ""
+
+}
